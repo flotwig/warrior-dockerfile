@@ -11,7 +11,7 @@ services:
     restart: unless-stopped
 
   archiveTeamWarrior:
-    image: atdr.meo.ws/archiveteam/warrior-dockerfile
+    image: ghcr.io/flotwig/warrior-dockerfile:master
     container_name: archiveTeamWarrior
     hostname: archiveTeamWarrior
     ports:

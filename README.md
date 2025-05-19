@@ -8,7 +8,7 @@ Build, run, grab the container IP and access the web interface on port 8001.
 
 ## Getting Started
 
-Available as a built image at `atdr.meo.ws/archiveteam/warrior-dockerfile`.
+Available as a built image at `ghcr.io/flotwig/warrior-dockerfile:master`.
 
 The following example:
 - Runs the Warrior in the background
@@ -27,7 +27,7 @@ docker run --detach \
   --label=com.centurylinklabs.watchtower.enable=true \
   --restart=on-failure \
   --publish 8001:8001 \
-  atdr.meo.ws/archiveteam/warrior-dockerfile
+  ghcr.io/flotwig/warrior-dockerfile:master
 ```
 
 On Windows (CMD), replace `\` with `^` like so:
@@ -44,7 +44,7 @@ docker run --detach ^
   --label=com.centurylinklabs.watchtower.enable=true ^
   --restart=on-failure ^
   --publish 8001:8001 ^
-  atdr.meo.ws/archiveteam/warrior-dockerfile
+  ghcr.io/flotwig/warrior-dockerfile:master
 ```
 On Windows (PowerShell), replace `\` (in the Linux example) with `` ` ``.
 
@@ -58,7 +58,7 @@ docker run --detach \
   --label=com.centurylinklabs.watchtower.enable=true \
   --restart=on-failure \
   --publish 8002:8001 \
-  atdr.meo.ws/archiveteam/warrior-dockerfile
+  ghcr.io/flotwig/warrior-dockerfile:master
 ```
 
 ## Configuration
@@ -90,7 +90,7 @@ docker run --detach \
   --label=com.centurylinklabs.watchtower.enable=true \
   --restart=on-failure \
   --publish 8001:8001 \
-  atdr.meo.ws/archiveteam/warrior-dockerfile
+  ghcr.io/flotwig/warrior-dockerfile:master
 ```
 
 ### Configuration Mapping
